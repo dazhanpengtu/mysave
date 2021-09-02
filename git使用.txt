@@ -1,0 +1,44 @@
+https://www.cnblogs.com/tugenhua0707/p/4050072.html
+https://blog.csdn.net/weixin_42701636/article/details/102905447?spm=1001.2014.3001.5501
+
+
+Git --> Git Bash
+
+配置：
+git config  --global 参数
+git config --global user.name "darren"
+git config --global user.email "darren.deng@anker.com"
+
+创建工作库：
+新建文件夹
+git init
+
+提交文件：
+git add readme.txt
+git commit -m “提交readme文件”
+
+查看状态：
+git status
+
+修改文件：
+git diff readme.txt
+git add readme.txt
+git commit -m “修改readme文件”
+
+查看提交日志：
+git log
+git log --pretty=oneline
+
+版本回退：
+git reset  --hard HEAD~100 //(前100个版本)
+git reset  --hard 版本号   //回退到指定版本号
+
+撤销修改：
+git checkout --readme.txt
+
+删除文件：
+直接删除rm
+git add a.txt
+git commit -m "删除文件"
+
+
